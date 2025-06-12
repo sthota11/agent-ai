@@ -1,4 +1,4 @@
-# Agent AI: Beginner Projects with OpenAI
+# Agent AI: Projects with OpenAI
 
 This repository is a collection of simple, beginner-friendly Node.js projects, each demonstrating how to build an "agent" using the OpenAI API.  
 Every agent performs a different, useful task—perfect for learning, experimenting, and understanding how AI fits into real-world JavaScript apps!
@@ -14,7 +14,7 @@ You’ll find **three mini-projects (agents):**
 Fetches the current weather for any city or location using the OpenAI API and a weather service.  
 Great for learning how to call APIs and use AI for practical outputs.
 
-### 2. Code Generator Agent
+### 2. Code Generator Agent (Similar to Cursor AI IDE)
 
 Acts like a mini AI IDE!  
 Generates code, creates simple starter projects, and helps automate programming tasks, powered by OpenAI.  
