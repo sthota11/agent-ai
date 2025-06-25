@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "weather": "node weather-agent/index.js",
-    "code": "node code-agent/index.js",
+    "code": "node ide-code-generator-agent/index.js",
     "todo": "node todo-agent/index.js"
   },
   "repository": {

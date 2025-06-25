@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Submission</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="form-container">
+<form id="userForm">
+<label for="firstName">First Name:</label>
+<input type="text" id="firstName" name="firstName" required>
+<label for="lastName">Last Name:</label>
+<input type="text" id="lastName" name="lastName" required>
+<label for="age">Age:</label>
+<input type="number" id="age" name="age" min="1" max="120" required>
+<label for="gender">Gender:</label>
+<select id="gender" name="gender" required>
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+<option value="NA">NA</option>
+</select>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</form>
+<div id="loading" style="display:none;">Loading...</div>
+<div id="successMessage" style="display:none;">Form submitted successfully!</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
