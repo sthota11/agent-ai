@@ -1,0 +1,25 @@
+{
+  "name": "agent-ai",
+  "version": "1.0.0",
+  "description": "This repository is a collection of simple, beginner-friendly Node.js projects, each demonstrating how to build an \"agent\" using the OpenAI API.   Every agent performs a different, useful task—perfect for learning, experimenting, and understanding how AI fits into real-world JavaScript apps!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "weather": "node weather-agent/index.js",
+    "code": "node code-agent/index.js",
+    "todo": "node todo-agent/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sthota11/agent-ai.git"
+  },
+  "dependencies": {
+    "axios": "^1.0.0",
+    "dotenv": "^16.0.0",
+    "openai": "^4.0.0",
+    "pg": "^8.0.0",
+    "readline-sync": "^1.4.10"
+  },
+  "author": "Sidd Thota",
+  "homepage": "https://github.com/sthota11/agent-ai#readme"
+}
