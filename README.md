@@ -7,7 +7,7 @@ Every agent performs a different, useful task—perfect for learning, experiment
 
 ## 🚀 What’s Inside?
 
-You’ll find **three mini-projects (agents):**
+You’ll find **a few mini-projects (agents):**
 
 ### 1. Weather Agent
 
@@ -45,7 +45,8 @@ Lets you add, update, or list todos using natural language—OpenAI interprets y
 
 **1. Clone this repo:**
 ```bash
-git clone https://github.com/yourusername/agent-ai-beginner-nodejs.git
-cd agent-ai-beginner-nodejs
+git clone https://github.com/sthota11/agent-ai.git
+cd agent-ai
 npm install # install dependencies
+npm run code or weather or todo
 
